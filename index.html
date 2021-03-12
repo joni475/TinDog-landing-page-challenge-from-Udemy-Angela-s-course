@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TinDog</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <nav>
+        <p class="logo">
+            tindog
+        </p>
+      <button class="hamburger">
+          <i class="fas fa-bars"></i>
+          <i class="fal fa-window-close"></i>
+      </button>
+      <div class="nav-layover"></div>
+      <ul class="hamburger-ul">
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Download</a></li>
+      </ul>
+    </nav>
+     <header class="header">
+        <div class="header-p">
+            <p class="first-p">Meet new and interesting dogs nearby.</p>
+            <button class="download apple"><i class="fab fa-apple"> Download</i></button>
+            <button class="download android"><i class="fab fa-google-play"> Download</i></button>
+        </div>
+        <div class="header-img">
+            <img class ="header-image" src="./images/iphone6.png" alt="dog-image">
+        </div>
+    </header>
+
+    <section class="trusted">
+        <div class="first">
+            <i class="icon fas fa-check-circle fa-4x"></i>
+            <p class="head">Easy to use</p>
+            <p class="para">So easy to use, even your dog could do it.</p>
+        </div>
+        <div class="second">
+            <i class="icon fas fa-bullseye fa-4x"></i>
+            <p class="head">Elite Clientele</p>
+            <p class="para">We have all the dogs, the greatest dogs</p>
+        </div>
+        <div class="third">
+            <i class="icon fas fa-heart fa-4x"></i>
+            <p class="head">Guaranteed to work</p>
+            <p class="para">Find the love of your dog's life or your money back</p>
+        </div>
+    </section>
+
+    <section class="slide">
+      <div class="slider">
+        <div class="slide-one slideDiv">
+           <p class="slide-head">
+               I no longer have to sniff other dogs for love. I've found
+               the hottest Corgi on TinDog. Woof!
+           </p>
+           <div class="location">
+               <img src="./images/dog-img.jpg" alt="">
+               <p>Pebbles, New York</p>
+           </div>
+        </div>
+        <div class="slide-two slideDiv">
+         <p class="slide-head">
+             My dog used to be so lonely, but with TinDog's help, they've
+             found the love of their life. I think.
+         </p>
+         <div class="location">
+             <img src="./images/lady-img.jpg" alt="">
+             <p>Beverly, Illinois</p>
+         </div>
+        </div>
+    </div>
+        <button class="next" onclick="plusDivs(-1)">
+            <i class="fas fa-chevron-left"></i>  
+          </button>
+          <button class="prev" onclick="plusDivs(+1)">
+              <i class="fas fa-chevron-right"></i> 
+          </button>
+         
+    </section>
+    <article class="pressLogo">
+        <div class="press-logo">
+              <img src="./images/TechCrunch.png" alt="">
+              <img src="./images/tnw.png" alt="">
+              <img src="./images/bizinsider.png" alt="">
+              <img src="./images/mashable.png" alt="">
+          </div>
+    </article>
+  <section class="subscription">
+      <div class="sub-head">
+          <p class="sub-head-p">
+              A Plan for Every Dog's Needs
+          </p>
+          <p class="description">
+              simple and affordable price plan for your and your dog.
+          </p>
+      </div>
+     <div class="boxes">
+         <div class="box-chi">
+              <div class="box-chi-content">
+                 <div class="box-chi-head">
+                  <h2>Chihuahua</h2>
+                 </div>
+                 <h1 class="box-h1">Free</h1>
+                 <p>5 Matches Per Day</p>
+                 <p>10 Messages Per Day</p>
+                 <p>Unlimited App Usage</p>
+                 <button class="chi"><p>Sign Up</p></button-chi>
+             </div>
+         </div>
+
+         <div class="box-chi box-lab">
+            <div class="box-chi-content box-lab-content">
+                <div class="box-lab-head box-chi-head">
+                 <h2>Labrador</h2>
+                </div>
+                <h1 class="box-h1">$49 / mo</h1>
+                <p>Unlimited Matches</p>
+                <p>Unlimited Messages</p>
+                <p>Unlimited App Usage</p>
+                <button class="chi lab"><p>Sign Up</p></button-chi>
+            </div>
+         </div>
+         <div class="box-chi box-mastiff">
+            <div class="box-chi-content box-mastiff-content">
+                <div class="box-chi-head box-mastiff-head">
+                 <h2>Mastiff</h2>
+                </div>
+                <h1 class="box-h1">$99 / mo</h1>
+                <p>Priority Listing</p>
+                <p>Unlimited Matches</p>
+                <p>Unlimited Messages</p>
+                <p>Unlimited App Usage</p>
+                <button class="chi lab"><p>Sign Up</p></button-chi>
+            </div>
+         </div>
+     </div>     
+  </section> 
+
+  <section class="download-section">
+       <div class="downloads-head">
+           <p class="download-head">
+               Find the True Love of Your Dog's Life Today.
+           </p>
+           <div class="download-apps">
+            <button class="download apple"><i class="fab fa-apple"> Download</i></button>
+            <button class="download android"><i class="fab fa-google-play"> Download</i></button>
+           </div>
+       </div>
+  </section>  
+
+  <footer>
+    <i class="fab fa-facebook-f footer-i"></i>
+    <i class="fab fa-twitter footer-i"></i>
+    <i class="fab fa-pinterest-square footer-i"></i>
+    <i class="fas fa-envelope footer-i"></i>
+    <p>&copy; Copyright 2021 TinDog</p>
+  </footer>
+     
+
+</body>
+</html>
