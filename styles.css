@@ -17,9 +17,10 @@ nav {
 }
 
 nav .logo {
-    font-size: 3.5rem;
+    font-size: 2rem;
     cursor: pointer;
-    font-weight: 900;
+    margin: 10px;
+    font-weight: 700;
     font-family: cursive,sans-serif;
 }
 nav ul {
@@ -75,14 +76,14 @@ nav ul a:hover {
 
 .first-p{
     margin: 0 15px;
-    font-size: 2.5rem
+    font-size: 2.2rem
 }
 
 .download {
     border: 1px solid #fff;
     display: inline-flex;
     border-radius: 5px;
-    padding: 15px 20px;
+    padding: 10px 15px;
     margin: 25px 15px;  
     cursor: pointer;
     outline: none;
@@ -170,16 +171,17 @@ nav ul a:hover {
     outline: none;
 }
 .prev:hover {
-    background-color: tomato;
+    opacity: 0.5;
+
 }
 .next:hover {
-   background-color: tomato;
+   opacity: 0.5;
 }
 .prev {
-    right: 10%;
+    right: 8%;
 }
 .next {
-    left: 10%;
+    left: 8%;
 }
 
 .location {
@@ -325,6 +327,13 @@ footer >p{
 }
 
 @media (min-width: 1102px){
+    nav .logo {
+        font-size: 3.5rem;
+        cursor: pointer;
+        font-weight: 900;
+        margin: 50px 50px 50px 0;
+        font-family: cursive,sans-serif;
+    }
    
    .header {
        display: grid;
@@ -394,7 +403,7 @@ footer >p{
         border-radius: 10px;
         position: absolute;
         font-size: 1.25rem;
-        top: 15%;
+        top: 9%;
         z-index: 2;
         padding: 40px;
     } 
