@@ -314,11 +314,13 @@ footer {
     text-align: center;
 }
 .footer-i {
-    margin: 1%;
+   padding: 14px;
 }
 .footer-i:hover {
-    opacity: 0.5;
+    opacity: 0.4;
     cursor: pointer;
+    border: 1px solid black;
+    border-radius: 60%;
 }
 footer >p{
     color: #8f8f8f;
